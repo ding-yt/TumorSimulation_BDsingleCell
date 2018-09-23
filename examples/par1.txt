@@ -1,0 +1,94 @@
+dimension = 2
+#lattices = 10000
+time_max = 10000000
+cell_types = 4
+type_0_initial_number = 2
+type_1_initial_number = 1
+migration_type = 3
+self_migrate = 0
+sample_size = 50
+sample_time_interval = 20000
+#187520
+
+＃For 2D PDE model
+xStep = 300
+yStep = 300
+initial_cell_number = 3000
+xMin = 0
+yMin = 0
+xMax = 0.1
+yMax = 0.1
+timeStep_between_generation = 8
+
+#For Moran model, fitness of cell is (1+s)^type 
+s = 0.1;
+empty_cell_fitness = 0.5
+
+#Background distribution:
+mean_begin_oxygen_distribution = 0
+mean_end_oxygen_distribution = 0
+variance_begin_oxygen_distribution = 0.8
+variance_end_oxygen_distribution = 9
+distribution_range = 20
+coefficient = 10
+
+#cell type parameters:
+type_0_oxygen_consumption = 0.57;
+type_0_glucose_consumption = 0;
+type_0_toxic_secretion = 0;
+type_0_proliferation_time = 10;
+type_0_growthFactor_secretion = 0;
+type_0_mutation_rate = 0;
+type_0_migration_rate = 0;
+type_0_death_rate = 0.0001;
+type_0_death_oxygen = 0.000001;
+type_0_death_glucose = 0;
+type_0_death_toxic = 0;
+type_0_quiescence_glucose = 0;
+type_0_quiescence_oxygen = 0.000002;
+type_0_fitness = 1;
+
+type_1_oxygen_consumption = 1.14;
+type_1_glucose_consumption = 0;
+type_1_toxic_secretion = 0;
+type_1_proliferation_time = 9;
+type_1_growthFactor_secretion = 0;
+type_1_mutation_rate = 0.001;
+type_1_migration_rate = 0;
+type_1_death_rate = 0.0001;
+type_1_death_oxygen = 0.0000011;
+type_1_death_glucose = 0;
+type_1_death_toxic = 0;
+type_1_quiescence_oxygen = 0.0000022;
+type_1_quiescence_glucose = 0;
+type_1_fitness = 1.1;
+
+type_2_oxygen_consumption = 2.28;
+type_2_glucose_consumption = 0;
+type_2_toxic_secretion = 0;
+type_2_proliferation_time = 8;
+type_2_growthFactor_secretion = 0;
+type_2_mutation_rate = 0.001;
+type_2_migration_rate = 0;
+type_2_death_rate = 0.0001;
+type_2_death_oxygen = 0.00000121;
+type_2_death_glucose = 0;
+type_2_death_toxic = 0;
+type_2_quiescence_oxygen = 0.00000242;
+type_2_quiescence_glucose = 0
+type_2_fitness = 1.21;
+
+type_3_oxygen_consumption = 4.56;
+type_3_glucose_consumption = 0;
+type_3_toxic_secretion = 0;
+type_3_proliferation_time = 7;
+type_3_growthFactor_secretion = 0;
+type_3_mutation_rate = 0;
+type_3_migration_rate = 0.001;
+type_3_death_rate = 0.0001;
+type_3_death_oxygen = 0.000001331;
+type_3_death_glucose = 0;
+type_3_death_toxic = 0;
+type_3_quiescence_oxygen = 0.000002662;
+type_3_quiescence_glucose = 0
+type_3_fitness = 1.331;
