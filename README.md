@@ -18,4 +18,4 @@ Compire with:
 g++ -std=c++0x *.cpp -o output
 ```
 
-There is an example parameter setting file under examples.
+Example parameter setting file under examples.
